@@ -183,8 +183,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -909.66, y: 172}
-  m_SizeDelta: {x: 535.83, y: 172.5}
+  m_AnchoredPosition: {x: -902.4, y: 172}
+  m_SizeDelta: {x: 550.4, y: 172.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &125179882
 MonoBehaviour:
@@ -602,9 +602,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 623183360}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0.267
+  m_MaxValue: 2
+  m_WholeNumbers: 1
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1802,6 +1802,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options Controller
       objectReference: {fileID: 0}
+    - target: {fileID: 4956261086469261984, guid: 9a1813a8ade346c48b9e569b2bc88475,
+        type: 3}
+      propertyPath: volumeSlider
+      value: 
+      objectReference: {fileID: 231530007}
+    - target: {fileID: 4956261086469261984, guid: 9a1813a8ade346c48b9e569b2bc88475,
+        type: 3}
+      propertyPath: difficultySlider
+      value: 
+      objectReference: {fileID: 336489786}
     - target: {fileID: 4956261086469261985, guid: 9a1813a8ade346c48b9e569b2bc88475,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1857,10 +1867,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4956261086469261984, guid: 9a1813a8ade346c48b9e569b2bc88475,
-        type: 3}
-      propertyPath: volumeSlider
-      value: 
-      objectReference: {fileID: 231530007}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a1813a8ade346c48b9e569b2bc88475, type: 3}
